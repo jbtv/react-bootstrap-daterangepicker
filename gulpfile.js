@@ -49,6 +49,7 @@ gulp.task('get-options', function () {
 		}).get();
 		// add options that aren't documented
 		options.push('template');
+		options.push('autoRange');
 		// de-dupe and sort
 		options = options.filter(function (item, index) {
 			return options.indexOf(item) === index;
