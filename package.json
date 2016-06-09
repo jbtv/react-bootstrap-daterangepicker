@@ -17,7 +17,7 @@
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "bootstrap-daterangepicker": "^2.1.21",
+    "bootstrap-daterangepicker": "https://github.com/jbtv/bootstrap-daterangepicker.git",
     "object-assign": "^4.1.0"
   },
   "peerDependencies": {
